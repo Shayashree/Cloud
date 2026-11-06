@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const client = require('prom-client');
 
-const Task = require('../backend/models/Task');
+const Task = require('./models/Task');
 
 const app = express();
 
